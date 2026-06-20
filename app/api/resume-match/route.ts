@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
-import {extractTextFromPDF} from 'app/lib/pdf-utils'
-import {fetchJobFromUrl} from 'app/lib/job-utils'
+import {extractTextFromPDF} from '../../lib/pdf-utils'
+import {fetchJobFromUrl} from '../../lib/job-utils'
 
 const client = new Anthropic()
 
